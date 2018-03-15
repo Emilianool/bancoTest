@@ -269,7 +269,7 @@ public class GerenciadoraClientesTest_Ex10 extends TestCase {
 		
 		/* ========== Verificações ========== */
 		assertTrue(sucesso);
-		assertEquals(conta01.getSaldo(), -102.0);
+		assertEquals(conta01.getSaldo(), -100.0);
 		assertEquals(conta02.getSaldo(), -98.0);
 	}
 
