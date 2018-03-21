@@ -38,7 +38,7 @@ public class GerenciadoraClientesTest_Ex10 extends TestCase {
 		
 		/* ========== Verificações ========== */
 		assertEquals(cliente.getId(), idCLiente01);
-		assertEquals(cliente.getNome(), "Emiliano");
+		assertEquals(cliente.getNome(), "Gustavo Farias");
 		
 	}
 	

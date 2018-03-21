@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="Sistema.com.br.GerenciadoraClientesTest_Ex10" time="0" errors="0" skipped="0">
+<testsuite tests="14" failures="1" name="Sistema.com.br.GerenciadoraClientesTest_Ex10" time="0.019" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -66,18 +66,24 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testTransfereValor_SaldoInsuficiente" time="0"/>
+  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testTransfereValor_SaldoInsuficiente" time="0.017"/>
   <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testTransfereValor_SaldoNegativoParaNegativo" time="0"/>
-  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testPesquisaCliente" time="0"/>
-  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testPesquisaClienteInexistente" time="0"/>
+  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testTransfereValor_Nenhum" time="0.001"/>
   <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testClienteIdadeAceitavel_04" time="0"/>
-  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testTransfereValor" time="0"/>
-  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testTransfereValor_SaldoNegativo" time="0"/>
+  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testPesquisaCliente" time="0.001">
+    <failure message="expected:&lt;Gustavo Farias&gt; but was:&lt;Emiliano&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;Gustavo Farias&gt; but was:&lt;Emiliano&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at Sistema.com.br.GerenciadoraClientesTest_Ex10.testPesquisaCliente(GerenciadoraClientesTest_Ex10.java:41)
+</failure>
+  </testcase>
+  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testRemoveClienteInexistente" time="0"/>
   <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testClienteIdadeAceitavel" time="0"/>
   <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testClienteIdadeAceitavel_02" time="0"/>
-  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testTransfereValor_Nenhum" time="0"/>
-  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testRemoveCliente" time="0"/>
-  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testRemoveClienteInexistente" time="0"/>
-  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testClienteIdadeAceitavel_03" time="0"/>
   <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testClienteIdadeAceitavel_05" time="0"/>
+  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testTransfereValor" time="0"/>
+  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testRemoveCliente" time="0"/>
+  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testClienteIdadeAceitavel_03" time="0"/>
+  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testTransfereValor_SaldoNegativo" time="0"/>
+  <testcase classname="Sistema.com.br.GerenciadoraClientesTest_Ex10" name="testPesquisaClienteInexistente" time="0"/>
 </testsuite>

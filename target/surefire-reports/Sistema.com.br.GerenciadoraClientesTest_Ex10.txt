@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: Sistema.com.br.GerenciadoraClientesTest_Ex10
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE!
+testPesquisaCliente(Sistema.com.br.GerenciadoraClientesTest_Ex10)  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<Gustavo Farias> but was:<Emiliano>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at Sistema.com.br.GerenciadoraClientesTest_Ex10.testPesquisaCliente(GerenciadoraClientesTest_Ex10.java:41)
+
